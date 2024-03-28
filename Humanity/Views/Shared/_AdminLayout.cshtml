@@ -1,0 +1,67 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<title>crud dashboard</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="@Url.Content("~/css/bootstrap.min.css")">
+	<!----css3---->
+	<link rel="stylesheet" href="@Url.Content("~/css/custom.css")">
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<!--google material icon-->
+	<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="body-overlay"></div>
+		<!-------sidebar--design------------>
+		<div id="sidebar">
+			<div class="sidebar-header">
+				<h3><img src="@Url.Content("~/img/logo.svg")" class="img-fluid" /><span>Humanity</span></h3>
+			</div>
+			<ul class="list-unstyled component m-0">
+				<li class="">
+					<a href="@Url.Content("~/Admin/Index")" class="dashboard"><i class="material-icons">dashboard</i>Dashboard (users) </a>
+				</li>
+				<li class="">
+					<a href="@Url.Content("~/Admin/contactus")" class=""><i class="material-icons">border_color</i>Contact Us </a>
+				</li>
+				<li class="">
+					<a href="@Url.Content("~/Admin/volunteer")" class=""><i class="material-icons">library_books</i>Volunteer </a>
+				</li>
+				<li class="">
+					<a href="@Url.Content("~/UserControlller/adminLogout")" class=""><i class="material-icons">logout</i>Logout </a>
+				</li>
+			</ul>
+		</div>
+		@RenderBody()
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="@Url.Content("~/js/jquery-3.3.1.slim.min.js")"></script>
+		<script src="@Url.Content("~/js/popper.min.js")"></script>
+		<script src="@Url.Content("~/js/bootstrap.min.js")"></script>
+		<script src="@Url.Content("~/js/jquery-3.3.1.min.js")"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+				$(".xp-menubar").on('click', function () {
+					$("#sidebar").toggleClass('active');
+					$("#content").toggleClass('active');
+				});
+
+				$('.xp-menubar,.body-overlay').on('click', function () {
+					$("#sidebar,.body-overlay").toggleClass('show-nav');
+				});
+
+			});
+		</script>
+</body>
+
+</html>

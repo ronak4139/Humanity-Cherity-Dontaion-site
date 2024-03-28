@@ -1,0 +1,558 @@
+.photo-icon {
+    height: 1416px;
+    width: 2125px;
+    position: relative;
+    object-fit: cover;
+    display: none;
+    max-width: 100%;
+}
+
+.background2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(../mainimages/Blog-single-Banner.png);
+    background-color: var(--default-base-back-dark);
+    width: 100%;
+    height: 100%;
+}
+
+.background-layer,
+.background3 {
+    width: 100%;
+    height: 822px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.background3 {
+    height: 100%;
+    bottom: 0;
+    background: linear-gradient( 81.13deg, rgba(26, 26, 26, 0), rgba(196, 196, 196, 0) );
+    z-index: 3;
+}
+
+.july-05-2022 {
+    width: 416px;
+    position: relative;
+    line-height: 108.3%;
+    /* white-space: pre-wrap; */
+    display: inline-block;
+    max-width: 100%;
+    z-index: 4;
+}
+
+.donations-counting,
+.weve-reached-1 {
+    margin: 0;
+}
+
+.weve-reached-1-container {
+    margin: 0;
+    position: relative;
+    font-size: var(--font-size-71xl);
+    line-height: 108.3%;
+    font-weight: 800;
+    font-family: var(--font-shippori-mincho);
+    z-index: 4;
+}
+
+.sub-title-frame {
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-266xl) var(--padding-341xl) 382px;
+    box-sizing: border-box;
+    position: relative;
+    gap: var(--gap-8xs);
+    max-width: 100%;
+}
+
+.background-image,
+.content-frame {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+.content-frame {
+    width: 2125px;
+    justify-content: center;
+    padding: var(--padding-180xl) var(--padding-2xl) var(--padding-180xl) var(--padding-xl);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 1416px;
+    max-width: 111%;
+    z-index: 2;
+}
+
+.background-image {
+    align-self: stretch;
+    height: 1130px;
+    margin-bottom: -500px;
+    overflow: hidden;
+    justify-content: center;
+    padding: 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-31xl);
+    color: var(--font-default-w);
+    font-family: var(--font-sue-ellen-francisco);
+}
+
+.uniquely-matrix-economically {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 130%;
+    font-family: var(--font-work-sans);
+    color: var(--color-dimgray-100);
+}
+
+.we-are-need {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 120%;
+    font-weight: 800;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.veniam-quae-nostrum1 {
+    align-self: stretch;
+    position: relative;
+    line-height: 130%;
+}
+
+.neque-sodales-ut {
+    margin-bottom: 0;
+}
+
+.neque-sodales-ut-etiam-sit-ame {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-8xl);
+}
+
+.blank-line16 {
+    margin: 0;
+}
+
+.nostrum-facere-repellendus {
+    margin-bottom: 0;
+}
+
+.nostrum-facere-repellendus-min {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-8xl);
+}
+
+.blank-line17 {
+    margin: 0;
+}
+
+.a-rich-text-element-can-be-use {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-8xl);
+}
+
+.neque-sodales-ut-container {
+    width: 735px;
+    position: relative;
+    line-height: 130%;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.content,
+.content-frame1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.content {
+    gap: var(--gap-11xl);
+    font-size: var(--font-size-xl);
+    color: var(--color-dimgray-100);
+    font-family: var(--font-work-sans);
+}
+
+.content-frame1 {
+    gap: var(--gap-6xl);
+    font-size: var(--font-size-21xl);
+}
+
+.empty-frame-icon {
+    width: 103.5px;
+    height: 103.5px;
+    position: relative;
+}
+
+.in-the-end {
+    margin: 0;
+    align-self: stretch;
+    height: 195px;
+    position: relative;
+    font-size: inherit;
+    line-height: 130%;
+    display: inline-block;
+    font-style: italic;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.blockquotes,
+.content1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.content1 {
+    width: 584px;
+    gap: var(--gap-2xl);
+}
+
+.blockquotes {
+    align-self: stretch;
+    background-color: var(--color-salmon);
+    padding: var(--padding-53xl) var(--padding-xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-11xl);
+    color: var(--font-default-w);
+    font-family: var(--font-work-sans);
+}
+
+.donate-your-time {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.veniam-quae-nostrum2 {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 130%;
+    font-family: var(--font-work-sans);
+    color: var(--color-dimgray-100);
+}
+
+.content2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-mini);
+    max-width: 100%;
+}
+
+.ballpark-value-added,
+.efficiently-myocardinate-marke1,
+.idea-sharing-with-back {
+    margin-bottom: 0;
+}
+
+.efficiently-myocardinate-marke {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-8xl);
+}
+
+.efficiently-myocardinate-marke-container {
+    width: 589px;
+    height: 195px;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 259%;
+    font-family: var(--font-work-sans);
+    color: var(--color-dimgray-100);
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+.author-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-2xl);
+    max-width: 100%;
+}
+
+.image-icon {
+    height: 144px;
+    width: 144px;
+    position: relative;
+    object-fit: cover;
+}
+
+.cincinatty {
+    height: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+.donator {
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 130%;
+    font-family: var(--font-work-sans);
+    color: var(--color-dimgray-100);
+}
+
+.name7 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.centuries-but-alsoleapintelect {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-xl);
+    line-height: 130%;
+    font-family: var(--font-work-sans);
+    color: var(--color-dimgray-100);
+    /* white-space: pre-wrap; */
+}
+
+.content3,
+.content4 {
+    display: flex;
+    max-width: 100%;
+}
+
+.content4 {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-3xs);
+    min-width: 400px;
+}
+
+.content3 {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+}
+
+.author,
+.blog-single,
+.blog-single1 {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.author {
+    align-self: stretch;
+    background-color: #f7f7f7;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-36xl) var(--padding-34xl);
+    max-width: 100%;
+}
+
+.blog-single,
+.blog-single1 {
+    justify-content: flex-start;
+}
+
+.blog-single1 {
+    width: 926px;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    gap: var(--gap-31xl);
+    max-width: 100%;
+    flex-shrink: 0;
+}
+
+.blog-single {
+    width: 100%;
+    position: relative;
+    background-color: var(--font-default-w);
+    overflow: hidden;
+    align-items: center;
+    padding: 0 0 var(--padding-23xl);
+    gap: var(--gap-81xl);
+    letter-spacing: normal;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-shippori-mincho);
+}
+
+@media screen and (max-width: 1200px) {
+    .content-frame {
+        padding-top: var(--padding-110xl);
+        padding-bottom: var(--padding-110xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .july-05-2022 {
+        font-size: var(--font-size-21xl);
+        line-height: 43px;
+    }
+
+    .weve-reached-1-container {
+        font-size: var(--font-size-26xl);
+        line-height: 58px;
+    }
+
+    .sub-title-frame {
+        padding: var(--padding-166xl) var(--padding-161xl) 248px;
+        box-sizing: border-box;
+    }
+
+    .we-are-need {
+        font-size: var(--font-size-13xl);
+        line-height: 38px;
+    }
+
+    .in-the-end {
+        font-size: var(--font-size-5xl);
+        line-height: 31px;
+    }
+
+    .author {
+        padding-left: var(--padding-7xl);
+        padding-right: var(--padding-7xl);
+        box-sizing: border-box;
+    }
+
+    .blog-single {
+        gap: var(--gap-81xl);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .sub-title-frame {
+        padding-left: var(--padding-71xl);
+        padding-right: var(--padding-71xl);
+        box-sizing: border-box;
+    }
+
+    .content-frame {
+        padding-top: var(--padding-65xl);
+        padding-bottom: var(--padding-65xl);
+        box-sizing: border-box;
+    }
+
+    .content4 {
+        min-width: 100%;
+    }
+
+    .blog-single {
+        gap: var(--gap-81xl);
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .july-05-2022 {
+        font-size: var(--font-size-11xl);
+        line-height: 32px;
+    }
+
+    .weve-reached-1-container {
+        font-size: var(--font-size-8xl);
+        line-height: 39px;
+    }
+
+    .sub-title-frame {
+        padding-top: var(--padding-101xl);
+        padding-bottom: 161px;
+        box-sizing: border-box;
+    }
+
+    .uniquely-matrix-economically {
+        font-size: var(--font-size-base);
+        line-height: 21px;
+    }
+
+    .we-are-need {
+        font-size: var(--font-size-5xl);
+        line-height: 29px;
+    }
+
+    .neque-sodales-ut-container,
+    .veniam-quae-nostrum1 {
+        font-size: var(--font-size-base);
+        line-height: 21px;
+    }
+
+    .in-the-end {
+        font-size: var(--font-size-lg);
+        line-height: 23px;
+    }
+
+    .blockquotes {
+        padding-top: var(--padding-28xl);
+        padding-bottom: var(--padding-28xl);
+        box-sizing: border-box;
+    }
+
+    .donate-your-time {
+        font-size: var(--font-size-xl);
+        line-height: 24px;
+    }
+
+    .veniam-quae-nostrum2 {
+        font-size: var(--font-size-base);
+        line-height: 21px;
+    }
+
+    .efficiently-myocardinate-marke-container {
+        font-size: var(--font-size-base);
+        line-height: 41px;
+    }
+
+    .cincinatty {
+        font-size: var(--font-size-xl);
+    }
+
+    .centuries-but-alsoleapintelect,
+    .donator {
+        font-size: var(--font-size-base);
+        line-height: 21px;
+    }
+
+    .blog-single1 {
+        gap: var(--gap-31xl);
+    }
+}

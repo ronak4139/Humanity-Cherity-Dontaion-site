@@ -1,0 +1,629 @@
+.background-image-icon4 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.donation1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 108.3%;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.first-charity-activity,
+.summer-today {
+  margin: 0;
+}
+.first-charity-activity-container {
+  margin: 0;
+  font-size: var(--font-size-71xl);
+  line-height: 108.3%;
+  font-weight: 800;
+  font-family: var(--font-shippori-mincho);
+  z-index: 1;
+}
+.banner4,
+.first-charity-activity-container,
+.image-icon10 {
+  align-self: stretch;
+  position: relative;
+}
+.banner4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-314xl) 275px 236px var(--padding-341xl);
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--font-default-w);
+  font-family: var(--font-sue-ellen-francisco);
+}
+.image-icon10 {
+  height: 617px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.donation-500012000 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.content-frame3 {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #bebebe;
+  box-sizing: border-box;
+}
+.our-goal {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.for-dynamic-content,
+.p,
+.veniam-quae-nostrum7 {
+  margin: 0;
+}
+.veniam-quae-nostrum-container {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-work-sans);
+  color: var(--color-dimgray-100);
+}
+.horizontal-rule {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 14px;
+  font-size: var(--font-size-16xl);
+}
+.we-love-design {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.veniam-quae-nostrum8 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-work-sans);
+  color: var(--color-dimgray-100);
+}
+.horizontal-rule1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+  max-width: 100%;
+}
+.details-about-the {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.blank-line20,
+.headings-paragraphs-blockquo,
+.p1,
+.the-rich-text,
+.veniam-quae-nostrum9 {
+  margin: 0;
+}
+.veniam-quae-nostrum-container1 {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-work-sans);
+  color: var(--color-dimgray-100);
+}
+.horizontal-rule2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.content10 {
+  align-self: stretch;
+  gap: var(--gap-16xl);
+  flex-shrink: 0;
+}
+.content10,
+.donation-500012000-parent,
+.line-with-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.line-with-content {
+  align-self: stretch;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xl);
+  font-size: var(--font-size-6xl);
+}
+.donation-500012000-parent {
+  width: 901px;
+  gap: var(--gap-35xl);
+}
+.donate-here {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.veniam-quae-nostrum10 {
+  align-self: stretch;
+  height: 63px;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-work-sans);
+  color: var(--color-dimgray-100);
+  display: inline-block;
+  flex-shrink: 0;
+}
+.inner-frame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.background4 {
+  height: 141px;
+  width: 403px;
+  position: relative;
+  border-radius: var(--br-9xl);
+  background-color: var(--font-default-w);
+  display: none;
+  max-width: 100%;
+}
+.qr-code-icon {
+  height: 109px;
+  width: 109px;
+  position: relative;
+  z-index: 1;
+}
+.scan-this-qr,
+.to-donate {
+  margin: 0;
+}
+.scan-this-qr-container {
+  height: 52px;
+  position: relative;
+  line-height: 128%;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.qr-code,
+.small-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-4xs);
+}
+.qr-code {
+  width: 403px;
+  border-radius: var(--br-9xl);
+  background-color: var(--font-default-w);
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-mini) var(--padding-base) var(--padding-mid);
+  box-sizing: border-box;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-work-sans);
+}
+.accepted-payment-methods {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  line-height: 120%;
+  font-weight: 800;
+  display: inline-block;
+  max-width: 100%;
+}
+.background5 {
+  height: 91px;
+  width: 429px;
+  position: relative;
+  border-radius: var(--br-40xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.photo-icon1,
+.photo-icon2 {
+  align-self: stretch;
+  width: 60px;
+  height: 40px;
+  position: relative;
+  max-height: 100%;
+  /* object-fit: cover; */
+  min-height: 53px;
+  z-index: 1;
+}
+.photo-icon3,
+.photo-icon4 {
+  width: 92px;
+}
+.input-frame7,
+.upi-card {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.upi-card {
+  border-radius: var(--br-40xl);
+  background-color: var(--color-whitesmoke-100);
+  border: 1px solid var(--color-gainsboro-600);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-mini) var(--padding-lgi)
+    var(--padding-mid);
+  gap: var(--gap-4xs);
+}
+.input-frame7 {
+  width: 429px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 429px;
+}
+.bank-details {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 120%;
+  font-weight: 800;
+  font-family: inherit;
+}
+.create-and-format {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-work-sans);
+  color: var(--color-dimgray-100);
+}
+.bank-info {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-mini);
+}
+.account-number {
+  margin: 0;
+}
+.blank-line21 {
+  margin: 0;
+  font-weight: 500;
+}
+.beneficiar-name {
+  margin: 0;
+}
+.blank-line22 {
+  margin: 0;
+  font-weight: 500;
+}
+.ifsc-code {
+  margin: 0;
+}
+.account-number-beneficiar-container {
+  height: 130px;
+  width: 180px;
+  position: relative;
+  line-height: 130%;
+  /* white-space: pre-wrap; */
+  display: inline-block;
+  flex-shrink: 0;
+  min-width: 180px;
+}
+.blank-line23,
+.blank-line24,
+.p2,
+.walfare-organization,
+.wrdsbi0bnkpis {
+  margin: 0;
+}
+.walfare-organization-wrdsbi0bn-container {
+  height: 130px;
+  position: relative;
+  line-height: 130%;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 205px;
+}
+.scan-to-donate {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-27xl);
+  max-width: 100%;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-work-sans);
+}
+.copy-account-details {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-work-sans);
+  color: var(--font-default-w);
+  text-align: left;
+}
+.button15 {
+  margin-top: 90px;
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl);
+  background-color: var(--color-darkslategray);
+  width: 296px;
+  border-radius: var(--br-15xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.button15:hover {
+  background-color: var(--color-dimgray-200);
+}
+.large-frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  min-width: 291px;
+  max-width: 100%;
+}
+.causes-single,
+.donate-form,
+.donation-text {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.donate-form {
+  align-self: stretch;
+  background-color: #ecf1f0;
+  flex-direction: row;
+  padding: 83px 102px;
+  gap: var(--gap-101xl);
+  max-width: 100%;
+}
+.causes-single,
+.donation-text {
+  flex-direction: column;
+}
+.donation-text {
+  width: 1240px;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-81xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-shippori-mincho);
+}
+.causes-single {
+  width: 100%;
+  position: relative;
+  background-color: var(--font-default-w);
+  overflow: hidden;
+  padding: 0 0 var(--padding-20xl);
+  gap: var(--gap-121xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .donate-form {
+    gap: var(--gap-101xl);
+    padding-left: var(--padding-32xl);
+    padding-right: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .donation1 {
+    font-size: var(--font-size-21xl);
+    line-height: 43px;
+  }
+  .first-charity-activity-container {
+    font-size: var(--font-size-26xl);
+    line-height: 58px;
+  }
+  .banner4 {
+    padding: var(--padding-197xl) 137px 153px var(--padding-161xl);
+    box-sizing: border-box;
+  }
+  .donate-here,
+  .donation-500012000,
+  .our-goal {
+    font-size: var(--font-size-9xl);
+    line-height: 34px;
+  }
+  .input-frame7 {
+    flex: 1;
+  }
+  .bank-details {
+    font-size: var(--font-size-9xl);
+    line-height: 34px;
+  }
+  .donate-form {
+    flex-wrap: wrap;
+  }
+  .causes-single {
+    gap: var(--gap-121xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .banner4 {
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-49xl);
+    box-sizing: border-box;
+  }
+  .upi-card {
+    flex-wrap: wrap;
+  }
+  .input-frame7 {
+    min-width: 100%;
+  }
+  .account-number-beneficiar-container,
+  .walfare-organization-wrdsbi0bn-container {
+    flex: 1;
+  }
+  .scan-to-donate {
+    flex-wrap: wrap;
+  }
+  .donate-form {
+    gap: var(--gap-101xl);
+    padding: 54px var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .donation-text {
+    gap: var(--gap-81xl);
+  }
+  .causes-single {
+    gap: var(--gap-121xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .donation1 {
+    font-size: var(--font-size-11xl);
+    line-height: 32px;
+  }
+  .first-charity-activity-container {
+    font-size: var(--font-size-8xl);
+    line-height: 39px;
+  }
+  .banner4 {
+    padding-top: var(--padding-121xl);
+    padding-bottom: 99px;
+    box-sizing: border-box;
+  }
+  .donation-500012000,
+  .our-goal {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+  .veniam-quae-nostrum-container {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .we-love-design {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .veniam-quae-nostrum8 {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .details-about-the {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .veniam-quae-nostrum-container1 {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .content10 {
+    gap: var(--gap-16xl);
+  }
+  .donation-500012000-parent {
+    gap: var(--gap-35xl);
+  }
+  .donate-here {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+  .veniam-quae-nostrum10 {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .qr-code-icon {
+    flex: 1;
+  }
+  .scan-this-qr-container {
+    font-size: var(--font-size-base);
+    line-height: 20px;
+  }
+  .qr-code {
+    flex-wrap: wrap;
+  }
+  .accepted-payment-methods {
+    font-size: var(--font-size-xl);
+    line-height: 24px;
+  }
+  .bank-details {
+    font-size: var(--font-size-2xl);
+    line-height: 25px;
+  }
+  .account-number-beneficiar-container,
+  .create-and-format,
+  .walfare-organization-wrdsbi0bn-container {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .scan-to-donate {
+    gap: var(--gap-27xl);
+  }
+  .large-frame {
+    gap: var(--gap-26xl);
+  }
+  .donate-form {
+    gap: var(--gap-101xl);
+  }
+  .donation-text {
+    gap: var(--gap-81xl);
+  }
+}

@@ -1,0 +1,138 @@
+﻿@model Humanity.Models.AdminModel
+@{
+    Layout = null;
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="@Url.Content("~/css/global.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/admin-login.css")" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shanti:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sue Ellen Francisco:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shippori Mincho:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Work Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Satoshi:wght@700&display=swap" />
+</head>
+<body>
+    <div class="admin-login7">
+        <main class="signup-page-frame">
+            <img class="image-icon11" alt="" src="@Url.Content("~/loginsignupimages/image@2x.png")" />
+
+            <section class="download-1"></section>
+        </main>
+        <div class="sign-up-page">
+            <div class="wrapper-image-wrapper">
+                <div class="wrapper-image">
+                    <img class="image-icon12"
+                         loading="eager"
+                         alt=""
+                         src="@Url.Content("~/loginsignupimages/image-12@2x.png")" />
+                </div>
+            </div>
+            <div class="sigupform-frame-parent">
+                <div class="sigupform-frame">
+                    <form method="post" asp-action="adminlogin" class="createanaccount-label">
+                        <div class="sig-up-form">
+                            <div class="create-an-account">
+                                <h1 class="page-heading">Admin Login</h1>
+                            </div>
+                            <div class="name-parent">
+                                <div class="name36">
+                                    <div class="label-frame7">
+                                        <div class="label7">Email</div>
+                                        <div class="input-frame8">
+                                            <div class="left-content7">
+                                                <img class="icon-left7"
+                                                     alt=""
+                                                     src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                                <div class="text-cursor7">
+                                                    <div class="input13">Input</div>
+                                                    <div class="cursor7">
+                                                        <div class="rectangle7"></div>
+                                                    </div>
+                                                    <div class="placeholder7">Placeholder</div>
+                                                </div>
+                                                <input class="youdomaincom2"
+                                                       placeholder="you@domain.com"
+                                                       type="text" 
+                                                       asp-for="Email"
+                                                       id="Password" />
+                                                <span asp-validation-for="Email" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="helper-text7">Helper text</div>
+                                </div>
+                                <div class="name37">
+                                    <div class="label-frame8">
+                                        <div class="label8">Password</div>
+                                        <div class="input-frame9">
+                                            <div class="left-content8">
+                                                <img class="icon-left8"
+                                                     alt=""
+                                                     src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                                <div class="text-cursor8">
+                                                    <div class="input14">Input</div>
+                                                    <div class="cursor8">
+                                                        <div class="rectangle8"></div>
+                                                    </div>
+                                                    <div class="placeholder8">Placeholder</div>
+                                                </div>
+                                                <input class="input15"
+                                                       placeholder="••••••••"
+                                                       type="password"
+                                                       asp-for="Password"
+                                                       id="Password" />
+                                                <span asp-validation-for="Password" class="text-danger"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="helper-text8">Helper text</div>
+                                </div>
+                                <div class="password"></div>
+                            </div>
+                        </div>
+                        <button type="submit" class="button-primary" id="buttonPrimary">
+                            <div class="container">
+                                <div class="label9">Log in</div>
+                            </div>
+                        </button>
+                    </form> 
+                    @if (TempData["msg"] != null)
+                    {
+                        <script>
+                            alert('@TempData["msg"].ToString();');
+                        </script>
+                    }
+                </div>
+                <button class="button-primary1" id="buttonPrimary1">
+                    <div class="container1">
+                        <div class="label10"><a style="text-decoration:none; color:white;" asp-action="Index">User Login</a></div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,669 @@
+.background-image-icon2 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.humanity-peoples {
+  margin: 0;
+  width: 273px;
+  position: relative;
+  font-size: inherit;
+  line-height: 108.3%;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  z-index: 1;
+}
+.banner2,
+.team-member {
+  position: relative;
+  max-width: 100%;
+}
+.team-member {
+  margin: 0;
+  font-size: var(--font-size-71xl);
+  line-height: 108.3%;
+  font-weight: 800;
+  font-family: var(--font-shippori-mincho);
+  display: inline-block;
+  white-space: nowrap;
+  z-index: 1;
+}
+.banner2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-314xl) var(--padding-341xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--font-default-w);
+  font-family: var(--font-sue-ellen-francisco);
+}
+.frame-team-image,
+.image-icon3 {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frame-team-image {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-20xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.image-icon3 {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jack-sparrow {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.fb-icon1,
+.insta-icon1 {
+  height: 17px;
+  width: 17.7px;
+  position: relative;
+}
+.fb-icon1 {
+  height: 16.9px;
+}
+.pintrest-icon1,
+.twiter-icon1 {
+  height: 15.1px;
+  width: 18.9px;
+  position: relative;
+}
+.pintrest-icon1 {
+  height: 17.9px;
+  width: 17.9px;
+  min-height: 18px;
+}
+.follow,
+.image-image,
+.name8 {
+  display: flex;
+  align-items: center;
+}
+.follow {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-mid);
+}
+.image-image,
+.name8 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.image-image {
+  height: 589px;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.image-icon4 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jack-sparrow1 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.fb-icon2,
+.insta-icon2 {
+  height: 17px;
+  width: 17.7px;
+  position: relative;
+}
+.fb-icon2 {
+  height: 16.9px;
+}
+.pintrest-icon2,
+.twiter-icon2 {
+  height: 15.1px;
+  width: 18.9px;
+  position: relative;
+}
+.pintrest-icon2 {
+  height: 17.9px;
+  width: 17.9px;
+  min-height: 18px;
+}
+.follow1,
+.image-image1,
+.name9 {
+  display: flex;
+  align-items: center;
+}
+.follow1 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-mid);
+}
+.image-image1,
+.name9 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.image-image1 {
+  height: 589px;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.image-icon5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jack-sparrow2 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.fb-icon3,
+.insta-icon3 {
+  height: 17px;
+  width: 17.7px;
+  position: relative;
+}
+.fb-icon3 {
+  height: 16.9px;
+}
+.pintrest-icon3,
+.twiter-icon3 {
+  height: 15.1px;
+  width: 18.9px;
+  position: relative;
+}
+.pintrest-icon3 {
+  height: 17.9px;
+  width: 17.9px;
+  min-height: 18px;
+}
+.follow2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-mid);
+}
+.name10,
+.newsletter-frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.newsletter-frame {
+  height: 589px;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.empty-frame {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+  grid-template-columns: repeat(3, minmax(285px, 1fr));
+}
+.team1 {
+  width: 1199.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.image-icon6 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jack-sparrow3 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.fb-icon4,
+.insta-icon4 {
+  height: 17px;
+  width: 17.7px;
+  position: relative;
+}
+.fb-icon4 {
+  height: 16.9px;
+}
+.pintrest-icon4,
+.twiter-icon4 {
+  height: 15.1px;
+  width: 18.9px;
+  position: relative;
+}
+.pintrest-icon4 {
+  height: 17.9px;
+  width: 17.9px;
+  min-height: 18px;
+}
+.div9,
+.follow3,
+.name11 {
+  display: flex;
+  align-items: center;
+}
+.follow3 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-mid);
+}
+.div9,
+.name11 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.div9 {
+  height: 589px;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.image-icon7 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jack-sparrow4 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.fb-icon5,
+.insta-icon5 {
+  height: 17px;
+  width: 17.7px;
+  position: relative;
+}
+.fb-icon5 {
+  height: 16.9px;
+}
+.pintrest-icon5,
+.twiter-icon5 {
+  height: 15.1px;
+  width: 18.9px;
+  position: relative;
+}
+.pintrest-icon5 {
+  height: 17.9px;
+  width: 17.9px;
+  min-height: 18px;
+}
+.div10,
+.follow4,
+.name12 {
+  display: flex;
+  align-items: center;
+}
+.follow4 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-mid);
+}
+.div10,
+.name12 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.div10 {
+  height: 589px;
+  gap: var(--gap-2xl);
+  max-width: 100%;
+}
+.image-icon8 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.jack-sparrow5 {
+  position: relative;
+  line-height: 120%;
+  font-weight: 800;
+}
+.fb-icon6,
+.insta-icon6 {
+  height: 17px;
+  width: 17.7px;
+  position: relative;
+}
+.fb-icon6 {
+  height: 16.9px;
+}
+.pintrest-icon6,
+.twiter-icon6 {
+  height: 15.1px;
+  width: 18.9px;
+  position: relative;
+}
+.pintrest-icon6 {
+  height: 17.9px;
+  width: 17.9px;
+  min-height: 18px;
+}
+.follow5,
+.name13 {
+  display: flex;
+  align-items: center;
+}
+.follow5 {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-3xs);
+  gap: var(--gap-mid);
+}
+.name13 {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-smi);
+}
+.div11,
+.div8 {
+  max-width: 100%;
+}
+.div11 {
+  height: 589px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-2xl);
+}
+.div8 {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  grid-template-columns: repeat(3, minmax(285px, 1fr));
+}
+.frame-follow,
+.team2 {
+  width: 1199.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+}
+.frame-follow {
+  width: 1239px;
+  overflow-x: auto;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-17xl);
+  max-width: 100%;
+}
+.image-icon9 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.beacame-volonteer {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: 108.3%;
+  font-weight: 400;
+  font-family: inherit;
+}
+.join-our-organization {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-21xl);
+  line-height: 120%;
+  font-weight: 800;
+  font-family: var(--font-shippori-mincho);
+  display: inline-block;
+  max-width: 204%;
+  flex-shrink: 0;
+}
+.title1 {
+  width: 218px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.save-the-children {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 130%;
+  font-family: var(--font-work-sans);
+}
+.content9 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+}
+.join-us-now {
+  position: relative;
+  font-size: var(--font-size-lg);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: var(--font-work-sans);
+  color: var(--font-default-w);
+  text-align: center;
+}
+.button13,
+.email-address {
+  flex-direction: row;
+  justify-content: center;
+}
+.button13 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) 33px;
+  background-color: var(--color-darkslategray);
+  border-radius: var(--br-15xl);
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.button13:hover {
+  background-color: var(--color-dimgray-200);
+}
+.email-address {
+  width: 556px;
+  max-width: 100%;
+}
+.content8,
+.email-address,
+.newsletter,
+.team {
+  display: flex;
+  align-items: center;
+}
+.content8 {
+  width: 771px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  z-index: 1;
+}
+.newsletter,
+.team {
+  position: relative;
+}
+.newsletter {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 144px var(--padding-xl) 143px var(--padding-2xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--font-size-16xl);
+  color: var(--font-default-w);
+  font-family: var(--font-sue-ellen-francisco);
+}
+.team {
+  width: 100%;
+  background-color: var(--font-default-w);
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-92xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslategray);
+  font-family: var(--font-shippori-mincho);
+}
+@media screen and (max-width: 1200px) {
+  .banner2 {
+    padding-left: var(--padding-161xl);
+    padding-right: var(--padding-161xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .banner2 {
+    padding-top: var(--padding-197xl);
+    padding-bottom: var(--padding-197xl);
+    box-sizing: border-box;
+  }
+  .div8,
+  .empty-frame {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(285px, 494px));
+  }
+  .beacame-volonteer {
+    font-size: var(--font-size-9xl);
+    line-height: 30px;
+  }
+  .join-our-organization {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .team {
+    gap: var(--gap-92xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .banner2 {
+    padding-left: var(--padding-71xl);
+    padding-right: var(--padding-71xl);
+    box-sizing: border-box;
+  }
+  .div8,
+  .empty-frame {
+    grid-template-columns: minmax(285px, 1fr);
+  }
+  .frame-follow {
+    gap: var(--gap-17xl);
+  }
+  .newsletter {
+    padding-top: 94px;
+    padding-bottom: var(--padding-74xl);
+    box-sizing: border-box;
+  }
+  .team {
+    gap: var(--gap-92xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .banner2 {
+    padding: var(--padding-121xl) var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .jack-sparrow,
+  .jack-sparrow1,
+  .jack-sparrow2,
+  .jack-sparrow3,
+  .jack-sparrow4,
+  .jack-sparrow5 {
+    font-size: var(--font-size-base);
+    line-height: 19px;
+  }
+  .beacame-volonteer {
+    font-size: var(--font-size-2xl);
+    line-height: 23px;
+  }
+  .join-our-organization {
+    font-size: var(--font-size-5xl);
+    line-height: 29px;
+  }
+  .save-the-children {
+    font-size: var(--font-size-base);
+    line-height: 21px;
+  }
+  .content8 {
+    gap: var(--gap-21xl);
+  }
+}

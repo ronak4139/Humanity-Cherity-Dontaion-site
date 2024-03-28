@@ -1,0 +1,300 @@
+﻿@* @page
+@model RegisterModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2>Create a new account.</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email">Email</label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.PhoneNumber" class="form-control" autocomplete="number" aria-required="true" placeholder="+9002121424242" />
+                <label asp-for="Input.PhoneNumber">Phone</label>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password">Password</label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword">Confirm Password</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        </form>
+    </div>
+    <div class="col-md-6 col-md-offset-2">
+        <section>
+            <h3>Use another service to register.</h3>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>1
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
+                            about setting up this ASP.NET application to support logging in via external services</a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+} *@
+
+@page
+@model RegisterModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Register";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="@Url.Content("~/css/global.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/signup-page.css")" />
+
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shanti:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sue Ellen Francisco:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shippori Mincho:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Work Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Satoshi:wght@700&display=swap" />
+</head>
+<body>
+    <div class="signup-page">
+
+        <img class="download-1-icon" alt="" src="@Url.Content("~/loginsignupimages/download-1@2x.png")" />        
+        <main class="sign-up-page2">
+            <img class="product-showcase-icon1"
+                 loading="eager"
+                 alt=""
+                 src="@Url.Content("~/loginsignupimages/product-showcase1@2x.png")" />
+
+            <div class="inner-frame">
+                    <div class="pageheading-text">
+                        <h1 class="page-heading3">Create an account</h1>
+                    <div class="sign-up-with-google" style="margin-left:110px">
+                            @{
+                                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                                {
+                                    <div>
+                                        <p>
+                                            1
+                                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">
+                                                article
+                                                about setting up this ASP.NET application to support logging in via external services
+                                            </a>.
+                                        </p>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                                        <div>
+                                            <p>
+                                                @foreach (var provider in Model.ExternalLogins!)
+                                                {
+                                                <button type="submit" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account" class="button-secondary1" id="buttonSecondary">
+                                                    <div class="container5">
+                                                        <img class="left-content-rectangle"
+                                                             loading="eager"
+                                                             alt=""
+                                                             src="@Url.Content("~/loginsignupimages/primary-button-instance@2x.png")" />
+
+                                                        <div class="label17">Sign up with Google</div>
+                                                    </div>
+                                                </button>
+                                                }
+                                            </p>
+                                        </div>
+                                    </form>
+                                }
+                            }                            
+                        </div>
+                    </div>
+                    <div class="name-label-frame">
+                        <div class="dividers1">
+                            <div class="divider1"></div>
+                            <div class="content31">
+                                <div class="text-block1">Or</div>
+                            </div>
+                        </div>
+                    </div>
+                <form class="labeled-frame" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                    <div class="name-input-frame">
+                        
+                        <div class="name41">
+                            <div asp-validation-summary="ModelOnly" style="color:red" class="text-danger" role="alert"></div>
+                            <div class="label-frame12">
+                                <div class="label19">Email</div>
+                                <div class="input-frame13">
+                                    <div class="left-content12">
+                                        <img class="icon-left12"
+                                             alt=""
+                                             src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                        <div class="text-cursor12">
+                                            <div class="input20">Input</div>
+                                            <div class="cursor12">
+                                                <div class="rectangle12"></div>
+                                            </div>
+                                            <div class="placeholder12">Placeholder</div>
+                                        </div>
+                                        <input asp-for="Input.Email" class="youdomaincom4" autocomplete="username" aria-required="true" placeholder="you@domain.com" />
+                                        
+                                    </div>
+                                </div>
+                                <span asp-validation-for="Input.Email" style="color:red" class="text-danger"></span>
+                            </div>
+                            <div class="helper-text12">Helper text</div>
+                        </div>
+                        <div class="name40">
+                            <div class="label-frame11">
+                                <div class="label18">Number</div>
+                                <div class="input-frame12">
+                                    <div class="left-content11">
+                                        <img class="icon-left11"
+                                             alt=""
+                                             src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                        <div class="text-cursor11">
+                                            <div class="input19">Input</div>
+                                            <div class="cursor11">
+                                                <div class="rectangle11"></div>
+                                            </div>
+                                            <div class="placeholder11">Placeholder</div>
+                                        </div>
+                                        <input asp-for="Input.PhoneNumber" class="enter-your-full2" autocomplete="number" aria-required="true" placeholder="+9002121424242" />
+                                    </div>
+                                </div>
+                                <span style="color:red" asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                            </div>
+                            <div class="helper-text11">Helper text</div>
+                        </div>
+                        <div class="name42">
+                            <div class="label-frame13">
+                                <div class="label20">Password</div>
+                                <div class="input-frame14">
+                                    <div class="left-content13">
+                                        <img class="icon-left13"
+                                             alt=""
+                                             src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                        <div class="text-cursor13">
+                                            <div class="input21">Input</div>
+                                            <div class="cursor13">
+                                                <div class="rectangle13"></div>
+                                            </div>
+                                            <div class="placeholder13">Placeholder</div>
+                                        </div>
+                                        <input asp-for="Input.Password" class="input22" autocomplete="new-password" aria-required="true" placeholder="••••••••" type="password" />
+
+                                    </div>
+                                </div>
+                                <span style="color:red" asp-validation-for="Input.Password" class="text-danger"></span>
+                            </div>
+                            <div class="helper-text13">Helper text</div>
+                        </div>
+                    </div>
+                    <div class="create-account-button">
+                        <div class="name43">
+                            <div class="label-frame14">
+                                <div class="label21">Conform Password</div>
+                                <div class="input-frame15">
+                                    <div class="left-content14">
+                                        <img class="icon-left14"
+                                             alt=""
+                                             src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                        <div class="text-cursor14">
+                                            <div class="input23">Input</div>
+                                            <div class="cursor14">
+                                                <div class="rectangle14"></div>
+                                            </div>
+                                            <div class="placeholder14">Placeholder</div>
+                                        </div>
+                                        <input asp-for="Input.ConfirmPassword" class="input24" autocomplete="new-password" aria-required="true" type="password" placeholder="••••••••" />
+
+                                    </div>
+                                </div>
+                                <span style="color:red" asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+
+                            </div>
+                            <div class="helper-text15">Helper text</div>
+                        </div>
+                    </div>                    
+                    <div class="create-account1" id="createAccountContainer">
+                        <button class="button-primary4">
+                            <div class="container6">
+                                <div class="label22">Create account</div>
+                            </div>
+                        </button>
+                        <div class="texts-frame" id="textsFrameContainer">
+                            <div class="label-frame-helper-text">
+                                <div class="page-heading4">Already an member?</div>
+                            </div>
+                            <button class="button-texts1">
+                                <div class="container7">
+                                    <div class="label23">
+                                        <a style="color:orange" asp-action="Index">Log in</a>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

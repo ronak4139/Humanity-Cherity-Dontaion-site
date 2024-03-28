@@ -1,0 +1,137 @@
+﻿@model Humanity.Models.ContactusDataModel
+@{
+    <link rel="stylesheet" href="@Url.Content("~/css/blog-single.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/contact-us.css")" />
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Contactus";
+}
+
+
+<div class="contact-us8">
+    <section class="banner">
+        <img class="background-image-icon"
+             loading="eager"
+             alt=""
+             src="@Url.Content("~/mainimages/background-image@2x.png")" />
+
+        <h1 class="contact">Contact</h1>
+        <h1 class="get-in-touch">Get in Touch</h1>
+    </section>
+    <section class="secondary-frame">
+        <div class="icon-frame">
+            <div class="icon-frame1">
+                <div class="icon-frame2">
+                    <h2 class="contact1">Contact</h2>
+                    <h1 class="get-in-touch1">Get in Touch With Us</h1>
+                </div>
+                <div class="lorem-ipsum-is">
+                    Whether you have questions, suggestions, or want to collaborate,
+                    we're here to listen and work together towards a brighter future for all.
+                    Reach out today and be a part of our mission to spread kindness and compassion worldwide.
+                </div>
+            </div>
+            <div class="icon-frame3">
+                <div class="nested-frame">
+                    <div class="lorem-ipsum-text">
+                        <div class="icon">
+                            <div class="background"></div>
+                            <div class="icon1">
+                                <div class="icon-child"></div>
+                                <img class="icon5" alt="" src="@Url.Content("~/mainimages/Iconemail.png")" />
+                            </div>
+                        </div>
+                        <div class="lorem-ipsum-text2">
+                            <div class="massege">Massege</div>
+                            <div class="supportwalfarecom">humanitycherity@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="icon-frame4">
+                        <button class="icon2">
+                            <div class="background1"></div>
+                            <img class="icon3" alt="" src="@Url.Content("~/mainimages/icon.svg")" />
+                        </button>
+                        <div class="contact-us-parent">
+                            <div class="contact-us9">Contact Us</div>
+                            <div class="div5">+91 6353620712</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="frame-parent13">
+                <div class="follow-us-on-social-media-parent">
+                    <div class="follow-us-on">Follow us on social media</div>
+                    <div class="veniam-quae-nostrum">
+                        Join our community of compassionate individuals dedicated to making a positive change in the world.
+                    </div>
+                </div>
+                <div class="insta-parent">
+                    <img class="insta-icon"
+                         loading="eager"
+                         alt=""
+                         src="@Url.Content("~/mainimages/insta.svg")" />
+
+                    <img class="fb-icon"
+                         loading="eager"
+                         alt=""
+                         src="@Url.Content("~/mainimages/fb.svg")" />
+
+                    <img class="twiter-icon"
+                         loading="eager"
+                         alt=""
+                         src="@Url.Content("~/mainimages/twiter.svg")" />
+
+                    <img class="pintrest-icon"
+                         loading="eager"
+                         alt=""
+                         src="@Url.Content("~/mainimages/pintrest.svg")" />
+                </div>
+            </div>
+        </div>
+        <form method="post" asp-action="contactus">
+        <div class="form">
+            <div class="form1">
+                <input class="name-phone-email"
+                       placeholder="Enter Your Name*"
+                       type="text"
+                           asp-for="contactusName"
+                           id="contactusName" />
+                    <span asp-validation-for="contactusName" class="text-danger"></span>
+
+                <input class="name-phone-email1"
+                       placeholder="Phone Number*"
+                       type="text" 
+                       asp-for="contactusPhoneNumber"
+                           id="contactusPhoneNumber" />
+                    <span asp-validation-for="contactusPhoneNumber" class="text-danger"></span>
+
+                <input class="name-phone-email2"
+                       placeholder="Email Address*"
+                       type="text"
+                           asp-for="contactusEmail"
+                           id="contactusEmail" />
+                    <span asp-validation-for="contactusEmail" class="text-danger"></span>
+
+                <div class="name-phone-email3">
+                    <textarea class="textarea"
+                              placeholder="Your Message*"
+                              rows="{10}"
+                              cols="{24}"
+                               asp-for="contactusMessage"
+                               id="contactusMessage">
+                    </textarea>
+                </div>
+                    <span asp-validation-for="contactusMessage" class="text-danger"></span>
+            </div>
+                <button style="color:black;" type="submit" class="button9">
+                    <div class="submit">Submit</div>
+                </button>
+        </div>            
+        </form>
+        @if (TempData["msg"] != null)
+        {
+            <script>
+                alert('@TempData["msg"].ToString();');
+            </script>
+        }
+    </section>
+</div>

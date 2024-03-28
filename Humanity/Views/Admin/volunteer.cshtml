@@ -1,0 +1,88 @@
+﻿@using Humanity.Models
+@model IEnumerable<VolunteerDataModel>
+@{
+	Layout = "_AdminLayout";
+}
+<!-------page-content start----------->
+<div id="content">
+	<!------top-navbar-start----------->
+	<div class="top-navbar">
+		<div class="xd-topbar">
+			<div class="row">
+				<div class="col-2 col-md-1 col-lg-1 order-2 order-md-1 align-self-center">
+					<div class="xp-menubar">
+						<span class="material-icons text-white">signal_cellular_alt</span>
+					</div>
+				</div>
+
+				<div class="col-md-5 col-lg-3 order-3 order-md-2">
+					<div class="xp-searchbar">
+						<div class="input-group">
+							<input type="search" class="form-control" placeholder="Search">
+							<div class="input-group-append">
+								<button class="btn" type="submit" id="button-addon2">
+									Go
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="xp-breadcrumbbar text-center">
+				<h4 class="page-title">Volunteer</h4>
+				<ol class="breadcrumb">
+				</ol>
+			</div>
+
+		</div>
+	</div>
+	<!------top-navbar-end----------->
+	<!------main-content-start----------->
+	<div class="main-content">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="table-wrapper">
+
+					<div class="table-title">
+						<div class="row">
+							<div class="col-sm-6 p-0 flex justify-content-lg-start justify-content-center">
+								<h2 class="ml-lg-2">Volunteer Data</h2>
+							</div>
+						</div>
+					</div>
+
+					<table class="table table-striped table-hover">
+						<thead>
+							<tr>
+								<th>Id</th>
+								<th>Name</th>
+								<th>Number</th>
+								<th>Email</th>
+								<th>Address</th>
+								<th>About</th>
+							</tr>
+						</thead>
+
+						<tbody>
+							@foreach (VolunteerDataModel item in (IEnumerable<VolunteerDataModel>)Model)
+							{
+								<tr>
+									<th>@item.Id</th>
+									<th>@item.volunteername</th>
+									<th>@item.volunteernumber</th>
+									<th>@item.volunteeremail</th>
+									<th>@item.volunteeraddress</th>
+									<th>@item.volunteerabout</th>
+								</tr>
+							}
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!------main-content-end----------->
+</div>
+	</div>
+<!-------complete html----------->

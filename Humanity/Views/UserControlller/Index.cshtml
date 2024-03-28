@@ -1,0 +1,157 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta charset="utf-8" />
+
+    <link rel="stylesheet" href="@Url.Content("~/css/global.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/index.css")" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shanti:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sue Ellen Francisco:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shippori Mincho:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Work Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Satoshi:wght@700&display=swap" />
+</head>
+<body>
+    <div class="signin-page">
+        <main class="signup-frame">
+            <img class="image-icon13" alt="" src="@Url.Content("~/loginsignupimages/image@2x.png")" />
+
+            <section class="download-11"></section>
+        </main>
+        <div class="sign-up-page1">
+            <div class="signin-frame">
+                <img class="image-icon14"
+                     loading="eager"
+                     alt=""
+                     src="@Url.Content("~/loginsignupimages/image-13@2x.png")" />
+            </div>
+            <div class="image6"></div>
+            <form class="signin-frame1">
+                <div class="signup-frame1">
+                    <div class="sig-up-form1">
+                        <div class="create-an-account1">
+                            <h1 class="page-heading1">Sign in</h1>
+                        </div>
+                        <div class="signin-input">
+                            <div class="name38">
+                                <div class="label-frame9">
+                                    <div class="label11">Email</div>
+                                    <div class="input-frame10">
+                                        <div class="left-content9">
+                                            <img class="icon-left9"
+                                                 alt=""
+                                                 src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                            <div class="text-cursor9">
+                                                <div class="input16">Input</div>
+                                                <div class="cursor9">
+                                                    <div class="rectangle9"></div>
+                                                </div>
+                                                <div class="placeholder9">Placeholder</div>
+                                            </div>
+                                            <input class="youdomaincom3"
+                                                   placeholder="you@domain.com"
+                                                   type="text" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="helper-text9">Helper text</div>
+                            </div>
+                            <div class="name39">
+                                <div class="label-frame10">
+                                    <div class="label12">Password</div>
+                                    <div class="input-frame11">
+                                        <div class="left-content10">
+                                            <img class="icon-left10"
+                                                 alt=""
+                                                 src="@Url.Content("~/loginsignupimages/iconleft.svg")" />
+
+                                            <div class="text-cursor10">
+                                                <div class="input17">Input</div>
+                                                <div class="cursor10">
+                                                    <div class="rectangle10"></div>
+                                                </div>
+                                                <div class="placeholder10">Placeholder</div>
+                                            </div>
+                                            <input class="input18"
+                                                   placeholder="••••••••"
+                                                   type="password" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="helper-text10">Helper text</div>
+                            </div>
+                            <div class="password1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="forget-password-link">
+                    <div class="primary-button-frame">
+                        <div class="text-forget-password">
+                            <div class="forget-password">Forget Password ?</div>
+                        </div>
+                        <button class="button-primary2" id="buttonPrimary">
+                            <div class="container2">
+                                <div class="label13">Log in</div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="create-account" id="createAccountContainer">
+                        <div class="frame-for-account-form">
+                            <div class="text-page-heading">
+                                <div class="page-heading2">Already a member?</div>
+                            </div>
+                            <button class="button-texts">
+                                <div class="container3">
+                                    <div class="label14">
+                                        <a style="color:green" asp-action="signup">Sign up</a>
+                                    </div>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="divider-instance">
+                        <div class="dividers">
+                            <div class="divider"></div>
+                            <div class="content30">
+                                <div class="label-instance-secondary">Or</div>
+                            </div>
+                        </div>
+                        <button class="button-secondary" id="buttonSecondary">
+                            <img class="primary-button-instance"
+                                 alt=""
+                                 src="@Url.Content("~/loginsignupimages/primary-button-instance@2x.png")" />
+
+                            <div class="label15"><a style="text-decoration:none; color:black;" asp-route-returnUrl="@Context.Request.Path" asp-action="SignIn">Sign up with Google</a></div>
+                        </button>
+                    </div>
+                </div>
+                <div class="secondary-button">
+                    <button class="button-primary3" id="buttonPrimary1">
+                        <div class="container4">
+                            <div class="label16"><a style="text-decoration:none; color:white;" asp-action="adminlogin">Admin Login</a></div>
+                        </div>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,20 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    Layout = null;
+    ViewData["Title"] = "Confirm email";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Logout Confirmation</title>
+    <script>
+        alert("Your Account Created Successfully !");
+        window.location.href = "/UserControlller/Index"; // Redirect to the home index page
+    </script>
+</head>
+<body>
+</body>
+</html>
+
+<partial name="_StatusMessage" model="Model.StatusMessage" />

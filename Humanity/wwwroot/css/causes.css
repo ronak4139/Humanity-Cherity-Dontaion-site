@@ -1,0 +1,828 @@
+.background-image-icon1 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.donation2,
+.our-causes1 {
+    margin: 0;
+    position: relative;
+    line-height: 108.3%;
+    z-index: 1;
+}
+
+.donation2 {
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+}
+
+.our-causes1 {
+    font-size: var(--font-size-71xl);
+    font-weight: 800;
+    font-family: var(--font-shippori-mincho);
+    display: inline-block;
+    max-width: 100%;
+}
+
+.banner2,
+.image-icon {
+    align-self: stretch;
+    position: relative;
+    max-width: 100%;
+}
+
+.banner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 333px 360px;
+    box-sizing: border-box;
+    gap: var(--gap-8xs);
+    text-align: left;
+    font-size: var(--font-size-31xl);
+    color: white;
+    font-family: var(--font-sue-ellen-francisco);
+}
+
+.image-icon {
+    height: 387px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.big-charity-build2 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.big-charity-build2,
+.donation-5000120006 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.display-text7 {
+    flex: 1;
+    border-radius: var(--br-22xl);
+    background-color: var(--color-gainsboro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 216px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.donate6 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: white;
+    text-align: left;
+}
+
+.button7 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xl);
+    background-color: var(--color-darkslategray);
+    width: 145px;
+    border-radius: var(--br-15xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+    .button10:hover,
+    .button11:hover,
+    .button12:hover,
+    .button13:hover,
+    .button7:hover,
+    .button8:hover {
+        background-color: var(--color-orange);
+    }
+
+.display-text-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 30px;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+}
+
+.big-charity-build-school-for-container,
+.frame-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.big-charity-build-school-for-container {
+    width: 548px;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 28px 0;
+}
+
+.frame-frame {
+    flex: 1;
+    align-items: center;
+    gap: 43px 0;
+}
+
+.image-icon1 {
+    align-self: stretch;
+    height: 387px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.first-charity-activity1,
+.summer-today1 {
+    margin: 0;
+}
+
+.first-charity-activity-container1 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.donation-5000120007,
+.first-charity-activity-container1 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.display-text8 {
+    flex: 1;
+    border-radius: var(--br-22xl);
+    background-color: var(--color-gainsboro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 216px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.donate7 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: white;
+    text-align: left;
+}
+
+.button8 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xl);
+    background-color: var(--color-darkslategray);
+    width: 145px;
+    border-radius: var(--br-15xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.display-text-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 30px;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+}
+
+.frame-school-for-poor {
+    width: 548px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 28px 0;
+    max-width: 100%;
+}
+
+.big-charity-frame,
+.frame-divider,
+.frame-school-for-poor {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.big-charity-frame {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px 0;
+    max-width: 100%;
+}
+
+.frame-divider {
+    width: 1200px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 32px;
+}
+
+.image-icon2 {
+    align-self: stretch;
+    height: 387px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.helping-the-homeless2 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.donation-5000120008,
+.helping-the-homeless2 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.display-text9 {
+    border-radius: var(--br-22xl);
+    background-color: var(--color-gainsboro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-13xl) var(--padding-2xl);
+    box-sizing: border-box;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.donate8 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: white;
+    text-align: left;
+}
+
+.button10 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xl) var(--padding-17xl);
+    background-color: var(--color-darkslategray);
+    border-radius: var(--br-15xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button9,
+.content3 {
+    align-self: stretch;
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.button9 {
+    flex-direction: row;
+    align-items: center;
+    gap: 0 30px;
+    font-size: var(--font-size-xl);
+}
+
+.content3 {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px 0;
+}
+
+.content2 {
+    align-self: stretch;
+    background-color: white;
+    align-items: center;
+    padding: var(--padding-24xl) var(--padding-19xl);
+    box-sizing: border-box;
+}
+
+.content2,
+.div1,
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.div1 {
+    margin-bottom: -43px;
+    align-self: stretch;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.wrapper {
+    height: 583px;
+    flex: 1;
+    align-items: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image-icon3 {
+    align-self: stretch;
+    height: 387px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.providing-access-to1 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.donation-5000120009,
+.providing-access-to1 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.display-text10 {
+    flex: 1;
+    border-radius: var(--br-22xl);
+    background-color: var(--color-gainsboro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 216px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.donate9 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: white;
+    text-align: left;
+}
+
+.button11 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xl);
+    background-color: var(--color-darkslategray);
+    width: 145px;
+    border-radius: var(--br-15xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.display-text-parent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 30px;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+}
+
+.providing-access-to-safe-water-parent {
+    width: 548px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 28px 0;
+    max-width: 100%;
+}
+
+.div,
+.image-parent,
+.providing-access-to-safe-water-parent {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-parent {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    gap: 43px 0;
+    max-width: 100%;
+}
+
+.div {
+    width: 1200px;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 0 32px;
+}
+
+.image-icon4 {
+    align-self: stretch;
+    height: 387px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.san-francisco-is1 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.donation-50001200010,
+.san-francisco-is1 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.display-text11 {
+    flex: 1;
+    border-radius: var(--br-22xl);
+    background-color: var(--color-gainsboro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 216px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.donate10 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: white;
+    text-align: left;
+}
+
+.button12 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xl);
+    background-color: var(--color-darkslategray);
+    width: 145px;
+    border-radius: var(--br-15xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.display-text-parent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 30px;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+}
+
+.image-group,
+.san-francisco-is-officially-th-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.san-francisco-is-officially-th-group {
+    width: 548px;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 28px 0;
+}
+
+.image-group {
+    flex: 1;
+    align-items: center;
+    gap: 43px 0;
+}
+
+.image-icon5 {
+    align-self: stretch;
+    height: 387px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.big-charity-build3 {
+    margin: 0;
+    align-self: stretch;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+.big-charity-build3,
+.donation-50001200011 {
+    position: relative;
+    line-height: 120%;
+    font-weight: 800;
+}
+
+.display-text12 {
+    flex: 1;
+    border-radius: var(--br-22xl);
+    background-color: var(--color-gainsboro);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-2xl);
+    box-sizing: border-box;
+    min-width: 216px;
+    max-width: 100%;
+    white-space: nowrap;
+}
+
+.donate11 {
+    position: relative;
+    font-size: var(--font-size-lg);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: var(--font-work-sans);
+    color: white;
+    text-align: left;
+}
+
+.button13 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xl);
+    background-color: var(--color-darkslategray);
+    width: 145px;
+    border-radius: var(--br-15xl);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.display-text-parent5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0 30px;
+    max-width: 100%;
+    font-size: var(--font-size-xl);
+}
+
+.big-charity-build-school-for-parent1,
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.big-charity-build-school-for-parent1 {
+    width: 548px;
+    align-items: flex-start;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    gap: 28px 0;
+}
+
+.image-container {
+    flex: 1;
+    align-items: center;
+    gap: 43px 0;
+}
+
+.blog,
+.div2 {
+    align-items: flex-start;
+}
+
+.div2 {
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0 32px;
+}
+
+.blog {
+    flex: 1;
+    overflow-x: auto;
+    flex-direction: column;
+    padding: 0 var(--padding-7xs) 0 0;
+    gap: 62px 0;
+    max-width: 100%;
+}
+
+.blog,
+.blog-wrapper,
+.causes1 {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.blog-wrapper {
+    width: 1212px;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 0 var(--padding-7xs);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-6xl);
+    color: var(--color-darkslategray);
+    font-family: var(--font-shippori-mincho);
+}
+
+.causes1 {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 0 165px;
+    gap: 139px 0;
+    letter-spacing: normal;
+}
+
+@media screen and (max-width: 1225px) {
+    .banner2 {
+        padding-left: var(--padding-161xl);
+        padding-right: var(--padding-161xl);
+        box-sizing: border-box;
+    }
+
+    .blog-wrapper {
+        max-width: calc(100% - 6px);
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .banner2 {
+        padding-top: var(--padding-197xl);
+        padding-bottom: var(--padding-197xl);
+        box-sizing: border-box;
+    }
+
+    .causes1 {
+        gap: 139px 0;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .donation2 {
+        font-size: var(--font-size-21xl);
+        line-height: 43px;
+    }
+
+    .our-causes1 {
+        font-size: var(--font-size-26xl);
+        line-height: 58px;
+    }
+
+    .banner2 {
+        padding-left: var(--padding-71xl);
+        padding-right: var(--padding-71xl);
+        box-sizing: border-box;
+    }
+
+    .button9 {
+        flex-wrap: wrap;
+    }
+
+    .wrapper {
+        height: auto;
+    }
+
+    .blog {
+        gap: 62px 0;
+    }
+
+    .causes1 {
+        gap: 139px 0;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .donation2 {
+        font-size: var(--font-size-11xl);
+        line-height: 32px;
+    }
+
+    .our-causes1 {
+        font-size: var(--font-size-8xl);
+        line-height: 39px;
+    }
+
+    .banner2 {
+        padding: var(--padding-121xl) var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .big-charity-build2,
+    .big-charity-build3,
+    .first-charity-activity-container1,
+    .helping-the-homeless2,
+    .providing-access-to1,
+    .san-francisco-is1 {
+        font-size: var(--font-size-xl);
+        line-height: 24px;
+    }
+
+    .blog {
+        gap: 62px 0;
+    }
+}

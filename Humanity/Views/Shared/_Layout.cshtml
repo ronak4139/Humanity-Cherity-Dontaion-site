@@ -1,0 +1,227 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var userName = ViewBag.UserName as string;
+}
+@if (TempData["ErrorMessage"] != null)
+{
+    <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="@Url.Content("~/css/global.css")" />
+    <link rel="stylesheet" href="@Url.Content("~/css/homepage.css")" />
+    
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shanti:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Sue Ellen Francisco:wght@400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500;600&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Shippori Mincho:wght@400;600;700;800&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Work Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=IBM Plex Sans:wght@400;500;700&display=swap" />
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Satoshi:wght@700&display=swap" />
+</head>
+<body>
+    <div class="homepage">
+        <section class="main-logo">
+            <header class="background20">
+                <div class="header7">
+                    <div class="background21"></div>
+                    <div class="banner-text">
+                        <div class="call-to-action-button">
+                            <img class="donation-counter-icon"
+                                 alt=""
+                                 src="@Url.Content("~/hfimages/vector1image.svg")" />
+
+                            <div class="volunteer-section1">+916353620712</div>
+                        </div>
+                        <div class="k-statistic">
+                            <div class="reasons-to-donate-frame">
+                                <img class="icon27" alt="" src="@Url.Content("~/hfimages/iconimage.svg")" />
+                            </div>
+                            <div class="humanitycharitycom8">humanity@charity.com</div>
+                        </div>
+                    </div>
+                    <div class="social-media7">
+                        <img class="insta-icon14"
+                             loading="eager"
+                             alt=""
+                             src="@Url.Content("~/hfimages/instaimage.svg")" />
+
+                        <img class="fb-icon14"
+                             loading="eager"
+                             alt=""
+                             src="@Url.Content("~/hfimages/fbimage.svg")" />
+
+                        <img class="twiter-icon14"
+                             loading="eager"
+                             alt=""
+                             src="@Url.Content("~/hfimages/twiterimage.svg")" />
+
+                        <img class="pintrest-icon15"
+                             loading="eager"
+                             alt=""
+                             src="@Url.Content("~/hfimages/pintrestimage.svg")" />
+                    </div>
+                </div>
+                <div class="address-input">
+                    <div class="background-image2">
+                        <div class="recent-blog-frame">
+                            <div class="subscribe-button">
+                                <img class="footer-icon"
+                                     loading="eager"
+                                     alt=""
+                                     src="@Url.Content("~/hfimages/vector-12image.svg")" />
+
+                                <div class="header-container1"></div>
+                            </div>
+                            <div class="icon-frame2">
+                                <h2 class="humanity20">Humanity</h2>
+                            </div>
+                        </div>
+                        <div class="background-frame1">
+                            <div class="join-button">
+                                <div class="home7"><a style="text-decoration:none; color:black;" asp-action="home">Home</a></div>
+                                <div class="counter-frame">
+                                    <div class="text-frame"></div>
+                                </div>
+                                <div class="counter-frame1">
+                                    <div class="about-us21" id="aboutUsText2"><a style="text-decoration:none; color:black;" asp-action="aboutus">About Us</a></div>
+                                </div>
+                                <div class="counter-frame2">
+                                    <div class="line26"></div>
+                                </div>
+                                <div class="counter-frame3">
+                                    <div class="blog22" id="blogText1"><a style="text-decoration:none; color:black;" asp-action="blogsingle">Blog</a></div>
+                                </div>
+                                <div class="counter-frame4">
+                                    <div class="line27"></div>
+                                </div>
+                                <div class="counter-frame5">
+                                    <div class="team17" id="teamText2"><a style="text-decoration:none; color:black;" asp-action="team">Team</a></div>
+                                </div>
+                                <div class="counter-frame6">
+                                    <div class="line28"></div>
+                                </div>
+                                <div class="contact16" id="contactText"><a style="text-decoration:none; color:black;" asp-action="contactus">Contact</a></div>
+                            </div>
+                            @* <div class="button-frame2">
+                                <a style="text-decoration:none;" asp-action="donationnow"><button class="button74" asp-action="donationnow" id="button" >
+                                    <div class="donate13">Donate</div>
+                                    </button>
+                                </a>
+                                <a style="text-decoration:none;" asp-action="Index">
+                                <button class="button75" asp-action="Index" id="button1">
+                                    <div class="login21">Login</div>
+                                </button>
+                                </a>
+                            </div> *@
+                                <partial name="_LoginPartial" />
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            @RenderBody()
+
+            <footer class="footer8">
+                <div class="footer-frame5">
+                    <div class="subscribe-frame1">
+                        <div class="volunteer-frame1">
+                            <div class="vector-ellipse-parent">
+                                <div class="vector-ellipse2">
+                                    <img class="humanity-text-icon"
+                                         alt=""
+                                         src="@Url.Content("~/hfimages/vector-12image.svg")" />
+
+                                    <div class="recent-blog-frame1"></div>
+                                </div>
+                                <h2 class="humanity21">Humanity</h2>
+                            </div>
+                            <div class="contact-us-frame8">
+                                <div class="care-about-people7">
+                                    Care about people to transforming their lives and exudes a
+                                    positives Impressiono believe.
+                                </div>
+                            </div>
+                            <div class="volunteer-about-us-team-blog-c">
+                                <img class="line-separator-icon"
+                                     loading="eager"
+                                     alt=""
+                                     src="@Url.Content("~/hfimages/svg1image.svg")" />
+
+                                <img class="line-separator-icon1"
+                                     loading="eager"
+                                     alt=""
+                                     src="@Url.Content("~/hfimages/svg2image.svg")" />
+
+                                <img class="line-separator-icon2"
+                                     loading="eager"
+                                     alt=""
+                                     src="@Url.Content("~/hfimages/svg3image.svg")" />
+                            </div>
+                        </div>
+                        <div class="text9">
+                            <div class="content50">
+                                <div class="involved7"></div>
+                                <div class="uitility7"></div>
+                                <div class="contact17">
+                                    <b class="contact-us17">Contact Us</b>
+                                    <div class="rk-university-kashturbadham-container7">
+                                        <p class="rk-university-kashturbadham7">
+                                            Rk University, kashturbadham , Rajkot - 360002
+                                        </p>
+                                        <p class="help-humanitycharitycom7">
+                                            help humanity@charity.com
+                                        </p>
+                                        <p class="p10">222 888 0000</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <b class="get-involved7">Get Involved</b>
+                            <div class="volunteer15" id="volunteerText">
+                                <p class="volunteer16"><a style="text-decoration:none; color:white;" asp-action="volunteer">Volunteer</a></p>
+                            </div>
+                            <div class="about-us23">
+                                <p class="about-us24"><a style="text-decoration:none; color:white;" asp-action="aboutus">About Us</a></p>
+                            </div>
+                            <div class="team20" id="teamText"><a style="text-decoration:none; color:white;" asp-action="team">Team</a></div>
+                            <div class="blog23" id="blogText">
+                                <p class="blog24"><a style="text-decoration:none; color:white;" asp-action="blogsingle">Blog</a></p>
+                            </div>
+                            <div class="causes10" id="causesText"><a style="text-decoration:none; color:orangered;" asp-action="causes">Causes</a></div>
+                            <div class="login22" id="loginText">
+                                <p class="login23"><a style="text-decoration:none; color:white;" asp-action="index">Login</a></p>
+                            </div>
+                            <div class="registration14" id="registrationText">
+                                <p class="registration15"><a style="text-decoration:none; color:white;" asp-action="signup">Registration</a></p>
+                            </div>
+                            <div class="admin-login8" id="adminLoginText"><a style="text-decoration:none; color:white;" asp-action="adminlogin">Admin Login</a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="frame-line">
+                    <div class="creative-team-logo"></div>
+                    <div class="copyright-20247">
+                        Copyright © 2024 Ronak Sarvaiya | Rohit Bhadaliya - All rights
+                        reserved
+                    </div>
+                </div>
+            </footer>
+    </div>
+
+</body>
+</html>
