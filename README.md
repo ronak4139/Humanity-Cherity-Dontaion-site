@@ -21,11 +21,11 @@ Humanity Charity Donation Website is a web application developed using ASP.NET M
 
 To run the application locally, follow these steps:
 
-1.Clone the repository to your local machine.
-2.Set up the database using SQL Server Management Studio or any other database management tool.
-3.Update the connection string in the appsettings.json file to point to your database.
-4.Build and run the application using Visual Studio or the .NET CLI.
-5.Access the application through your web browser and explore its features.
+1. Clone the repository to your local machine.
+2. Set up the database using SQL Server Management Studio or any other database management tool.
+3. Update the connection string in the appsettings.json file to point to your database.
+4. Build and run the application using Visual Studio or the .NET CLI.
+5. Access the application through your web browser and explore its features.
 
 # Contribution
 
