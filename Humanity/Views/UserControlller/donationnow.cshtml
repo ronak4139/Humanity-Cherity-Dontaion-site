@@ -65,10 +65,10 @@
     var razorpayBtn = document.getElementById('razorpayBtn');
     razorpayBtn.addEventListener('click', function () {
         var options = {
-            key: 'rzp_test_BJdRUVZXzLFsKD', // Replace with your Razorpay key
+            key: '', // Replace with your Razorpay key
             amount: document.getElementById('amount').value * 100, // Amount in paisa
             currency: 'INR', // Currency
-            name: 'Humanity',
+            name: '',
             description: 'Donation',// Your organization logo
             handler: function (response) {
                 // Handle successful payment
